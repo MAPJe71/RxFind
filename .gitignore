@@ -1,5 +1,30 @@
-*.user
+
+#-------------------------------------------------------------------------------
+# Various
 *.bak
-bin
-obj
+
+#-------------------------------------------------------------------------------
+# VisualStudio
+
+#-- User-specific files
 *.suo
+*.user
+
+#-- Build results
+[Bb]in/
+[Oo]bj/
+*.pdb
+
+#-------------------------------------------------------------------------------
+# Windows
+
+#-- image file cache
+Thumbs.db
+
+#-- Folder config file
+Desktop.ini
+folder-*.ico
+
+#-- Recycle Bin used on file shares
+$RECYCLE.BIN/
+
